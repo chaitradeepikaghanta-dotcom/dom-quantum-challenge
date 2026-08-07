@@ -172,19 +172,6 @@ The project can be extended through:
 
 ---
 
-## 👥 Team
-
-**Team: Entangled Minds**
-
-| Member        | Role / Contribution | Email |
-| ------------- | ------------------- | ----- |
-| Team Member 1 | —                   | —     |
-| Team Member 2 | —                   | —     |
-| Team Member 3 | —                   | —     |
-| Team Member 4 | —                   | —     |
-
----
-
 ## 🙏 Acknowledgements
 
 This project was developed as part of the **WISER × Nestlé Global Quantum+AI Program 2026**.
