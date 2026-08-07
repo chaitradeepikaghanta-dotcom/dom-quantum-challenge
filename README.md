@@ -4,6 +4,12 @@
 
 **Team: Entangled Minds**
 
+## 📊 Project Presentation
+
+👉 **[View the Project Presentation (PPT)](https://drive.google.com/file/d/1O-DsQW7Gi5mAmQbOlCMd7qisoajEkdC7/view?usp=sharing)**
+
+> Our presentation covers the problem, methodology, classical and quantum-inspired benchmarking, QAOA implementation, results, and future scope.
+
 ## 🎯 The Problem
 
 Nestlé operates multiple distribution centers that fulfill customer orders. When an order's default distribution center cannot fulfill it due to inventory or operational constraints, the order may need to be reassigned to an alternative distribution center.
