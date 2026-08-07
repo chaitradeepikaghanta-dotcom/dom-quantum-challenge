@@ -1,6 +1,6 @@
 # DOM Solution — WISER × Nestlé Quantum Challenge
 
-Team: White Collars
+Team: Entangled minds
 
 ## What's in this folder
 
@@ -15,7 +15,7 @@ Team: White Collars
 - `Technical_Report.docx` — the full 6-10 page report.
 - `Planner_View.docx` — one-page business-language summary.
 
-## Running it yourself (recommended before submission)
+## Running
 
 1. **Install Python 3.10+** if you don't have it.
 2. **Install dependencies:**
@@ -51,15 +51,6 @@ Team: White Collars
    Then Kernel → Restart & Run All. You should see the same numbers
    already baked into the notebook (objective ≈447,822 for the ILP,
    99.2% for Steepest Descent, etc.) appear live on your machine.
-
-   Or run each script standalone: `python baseline_pulp.py`, etc.
-
-5. **Optional: put it under git** so you have your own commit history:
-   ```
-   git init
-   git add .
-   git commit -m "DOM challenge solution"
-   ```
 
 ## Expected runtime
 
