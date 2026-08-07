@@ -64,12 +64,16 @@ def report(inst, assignment, label):
     objective = total_value - total_shipping - total_penalty
 
     print(f"\n--- {label} ---")
-    print(f"Assignment: {assignment}")
     print(f"Objective value:     {objective:.2f}")
     print(f"Fill rate:           {fill_rate:.0%} ({len(fulfilled)}/{len(orders)})")
-    print(f"Orders reassigned:   {len(reassigned)}  {reassigned}")
+    print(f"Orders reassigned:   {len(reassigned)}")
     print(f"Total shipping cost: {total_shipping:.2f}")
     print(f"Total penalty cost:  {total_penalty:.2f}")
+    # NOTE: per-order assignment details (order IDs -> DC) are intentionally
+    # NOT printed here to keep public-repo output at the aggregate-metrics
+    # level per the challenge's data privacy rules. The full `assignment`
+    # dict is still returned/available in-memory for anyone running this
+    # locally with their own authorized data pack access.
     return {"objective": objective, "fill_rate": fill_rate, "reassigned": len(reassigned),
             "shipping": total_shipping, "penalty": total_penalty}
 

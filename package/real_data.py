@@ -107,9 +107,8 @@ if __name__ == "__main__":
     print(f"Orders: {len(inst['orders'])}, DCs: {len(inst['dcs'])}, SKUs: {len(inst['skus'])}")
     print(f"DCs: {inst['dcs']}")
     print()
-    for o in inst["orders"][:5]:
-        d = inst["default_dc"][o]
-        s = inst["order_sku"][o]
-        print(f"{o}: default_dc={d} sku={s} value={inst['value'][o]:.2f} "
-              f"penalty={inst['penalty'][o]:.2f} ship_to_default={inst['ship_cost'][(o,d)]:.2f} "
-              f"inv_at_default={inst['inventory'][(d,s)]}")
+    total_value = sum(inst["value"].values())
+    avg_penalty = sum(inst["penalty"].values()) / len(inst["orders"])
+    print(f"Aggregate summary: total order value = {total_value:,.2f}, "
+          f"average penalty = {avg_penalty:,.2f} "
+          f"(per-order IDs/SKUs/values omitted from output for public-repo privacy)")

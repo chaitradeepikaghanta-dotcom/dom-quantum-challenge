@@ -127,9 +127,9 @@ if __name__ == "__main__":
     best = result.first.sample
 
     assignment = decode(best, inst)
-    print(f"\nBest sample assignment: {assignment}")
-    valid = all(v is not None for v in assignment.values()) or True  # None entries just mean unfulfilled
-    print("(None = order left unfulfilled or constraint violated in this sample)")
+    n_unfulfilled = sum(1 for v in assignment.values() if v is None)
+    print(f"\nSample solved: {len(assignment) - n_unfulfilled}/{len(assignment)} orders assigned "
+          f"(per-order assignment details omitted from output for public-repo privacy)")
 
     from baseline_pulp import report
     report(inst, assignment, "Quantum-inspired (simulated annealing on QUBO)")
