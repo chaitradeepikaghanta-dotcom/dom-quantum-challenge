@@ -1,6 +1,6 @@
 # DOM Solution — WISER × Nestlé Quantum Challenge
 
-Team: White Collars
+Team: Entangled minds
 
 ## What's in this folder
 
