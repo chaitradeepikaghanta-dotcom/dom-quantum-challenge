@@ -1,6 +1,9 @@
 # 📦 Quantum Optimization for Distributed Order Management
+# WISER × Global Quantum+AI Program 2026
 
-### WISER × Nestlé Global Quantum+AI Program 2026
+
+### WISER Logistics Challenge
+
 
 **Team: Entangled Minds**
 
