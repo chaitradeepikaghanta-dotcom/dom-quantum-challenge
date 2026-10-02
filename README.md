@@ -15,7 +15,7 @@
 
 ## Project Report
 
-📄 [Technical Project Report](docs/Quantum_DOM_Technical_Report.pdf)
+📄 [Quantum DOM Technical Project Report](docs/Quantum_DOM_Technical_Project_Report.pdf)
 
 ## 🎯 The Problem
 
