@@ -13,6 +13,10 @@
 
 > Our presentation covers the problem, methodology, classical and quantum-inspired benchmarking, QAOA implementation, results, and future scope.
 
+## Project Report
+
+📄 [Technical Project Report](docs/Quantum_DOM_Technical_Report.pdf)
+
 ## 🎯 The Problem
 
 Nestlé operates multiple distribution centers that fulfill customer orders. When an order's default distribution center cannot fulfill it due to inventory or operational constraints, the order may need to be reassigned to an alternative distribution center.
