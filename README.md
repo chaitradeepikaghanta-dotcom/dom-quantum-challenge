@@ -13,9 +13,9 @@
 
 > Our presentation covers the problem, methodology, classical and quantum-inspired benchmarking, QAOA implementation, results, and future scope.
 
-## Project report
+## 📄 Technical Project Report
 
-### 👉 [View the Complete Technical Project Report](./package/Quantum_DOM_Technical_Project_Report.pdf)
+👉 **[View the Technical Project Report (PDF)](https://drive.google.com/file/d/1kF-CukeJYihxWOh4wxt8kzuNmlgRhBU1/view?usp=sharing)**
 
 ## 🎯 The Problem
 
